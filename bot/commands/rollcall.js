@@ -6,7 +6,7 @@ module.exports = {
   execute(message, args){
     responses = ["Present!","I'm Here!","Accounted for!","At hand!","On Deck!","On hand!","Who does number two work for?!"];
     i = Math.round(Math.random()*responses.length);
-    r = responses[i]
+    r = responses[i];
     message.channel.send(`${r}`);
   },
 };
